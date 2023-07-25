@@ -15,7 +15,7 @@ const props = defineProps<{
   rankModel: Rank;
   quizMode: boolean;
 }>();
-const image = computed(() => `/img/${props.rankModel.imageName}`);
+const image = computed(() => `img/${props.rankModel.imageName}`);
 
 </script>
 
